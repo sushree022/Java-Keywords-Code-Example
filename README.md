@@ -10,4 +10,7 @@ Description-
 2. oops package-
 		Implementation of encapsulation, enum, inheritance, interface, class, objects.
 
+3. inner class package- 
+		use of nested, inner and local classes.
+
 
