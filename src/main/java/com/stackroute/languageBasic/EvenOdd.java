@@ -1,6 +1,7 @@
-package com.stackroute.languageBasics;
+package com.stackroute.languageBasic;
 
 import java.util.Scanner;
+
 /*
     Example which contains Variables, Operators, Expressions, Statements, Blocks and Control Flow Statements.
     Two numbers are taken as input from user and its summation is calculated.
@@ -21,12 +22,12 @@ public class EvenOdd {
 //        input 2 from user
         Scanner input2 = new Scanner(System.in);
 //        assigning the input value to number2
-        number2= input2.nextInt();
+        number2 = input2.nextInt();
 //        use of operator to find sum of numbers
-        sum= number1+number2;
+        sum = number1 + number2;
 //        control flow statement(decision making statement)
         if (sum % 2 == 0) {
-            System.out.println("Summation of both the numbers is "+ sum+ " and it is even");
-        } else System.out.println("Summation of both the numbers is "+ sum+ " and it is odd");
+            System.out.println("Summation of both the numbers is " + sum + " and it is even");
+        } else System.out.println("Summation of both the numbers is " + sum + " and it is odd");
     }
 }
